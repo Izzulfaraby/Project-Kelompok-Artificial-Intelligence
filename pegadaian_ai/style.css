@@ -1,0 +1,178 @@
+/* =========================
+   BACKGROUND UTAMA
+========================= */
+.stApp {
+  background-color: #f4d74a;
+  color: #0b1f8a;
+}
+
+/* =========================
+   FONT GLOBAL
+========================= */
+html,
+body,
+[class*="css"] {
+  font-family: "Poppins", sans-serif;
+}
+/* =========================
+   HEADING
+========================= */
+h1 {
+  color: #0b1f8a !important;
+  text-align: center !important;
+
+  font-size: 48px !important;
+  font-weight: bold !important;
+
+  font-family: "Times New Roman", Times, serif !important;
+}
+
+h2 {
+  color: #0b1f8a !important;
+  text-align: center !important;
+
+  font-size: 27px !important;
+  font-weight: bold !important;
+
+  font-family: "Times New Roman", Times, serif !important;
+  font-style: italic;
+}
+
+h3 {
+  color: #0b1f8a !important;
+
+  font-size: 24px !important;
+  font-weight: bold !important;
+
+  font-family: "Times New Roman", Times, serif !important;
+  font-style: italic;
+  text-align: center !important;
+}
+
+/* =========================
+   TEXT BIASA
+========================= */
+.normal-text {
+  color: #0b1f8a;
+
+  font-size: 17px !important;
+  font-weight: 500 !important;
+  font-family: "Times New Roman", Times, serif !important;
+}
+
+/* =========================
+   LABEL INPUT
+========================= */
+label {
+  color: #0b1f8a !important;
+
+  font-size: 18px;
+  font-weight: 500;
+}
+
+/* =========================
+   INPUT BOX
+========================= */
+.stTextInput input {
+  background-color: white;
+
+  color: #0b1f8a;
+
+  border: 2px solid #0b1f8a;
+  border-radius: 12px;
+
+  padding: 10px;
+}
+
+/* =========================
+   SELECT BOX
+========================= */
+.stSelectbox div[data-baseweb="select"] {
+  background-color: white !important;
+
+  border: 2px solid #0b1f8a !important;
+  border-radius: 12px !important;
+
+  color: #0b1f8a !important;
+}
+
+/* Isi tulisan select */
+.stSelectbox div[data-baseweb="select"] span {
+  color: #0b1f8a !important;
+}
+
+/* Dropdown bagian dalam */
+.stSelectbox div[data-baseweb="select"] > div {
+  background-color: white !important;
+}
+
+/* =========================
+   BUTTON
+========================= */
+.stButton > button {
+  width: 100%;
+
+  background-color: #0b1f8a;
+  color: white;
+
+  border-radius: 12px;
+  border: none;
+
+  height: 50px;
+
+  font-size: 16px;
+  font-weight: 600;
+
+  transition: 0.3s;
+}
+
+/* Hover button */
+.stButton > button:hover {
+  background-color: #142fc2;
+
+  transform: scale(1.02);
+}
+
+/* =========================
+   CARD / CONTAINER
+========================= */
+.block-container {
+  background-color: rgba(255, 255, 255, 0.15);
+
+  padding: 2rem;
+
+  border-radius: 20px;
+
+  max-width: 800px;
+
+  margin: auto;
+  margin-top: 50px;
+}
+
+/* =========================
+   SUCCESS
+========================= */
+.stSuccess {
+  background-color: #d1fae5;
+
+  border-radius: 12px;
+}
+
+/* =========================
+   WARNING
+========================= */
+.stWarning {
+  border-radius: 12px;
+}
+
+/* =========================
+   SIDEBAR
+========================= */
+section[data-testid="stSidebar"] {
+  background-color: #0b1f8a;
+}
+
+/* Sidebar text */
+section[data-testid="stSidebar"] * {
+  color: white;
+}
