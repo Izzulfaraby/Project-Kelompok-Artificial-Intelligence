@@ -1,0 +1,98 @@
+html,
+body,
+[class*="css"] {
+  font-family: "Poppins", sans-serif;
+}
+
+/* =========================
+   BACKGROUND
+========================= */
+.stApp {
+  background-color: #f4d74a;
+}
+
+/* LOGO */
+[data-testid="stImage"] {
+  margin-left: 125px;
+  margin-bottom: -80px;
+  position-anchor: inherit;
+}
+
+/* =========================
+   JUDUL LOGIN
+========================= */
+h1 {
+  color: #0b1f8a !important;
+
+  margin-left: 80px;
+  margin-top: -60px;
+
+  font-size: 45px !important;
+  font-weight: 700 !important;
+}
+
+/* =========================
+   SUBTITLE
+========================= */
+h3 {
+  text-align: center;
+  color: #0b1f8a !important;
+
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+/* =========================
+   INPUT BOX
+========================= */
+.stTextInput input {
+  background-color: white;
+  border: 2px solid #0b1f8a;
+  border-radius: 12px;
+
+  color: #0b1f8a;
+
+  padding: 10px;
+}
+
+/* =========================
+   BUTTON
+========================= */
+.stButton > button {
+  width: 100%;
+
+  background-color: #0b1f8a;
+  color: white;
+
+  border-radius: 12px;
+  border: none;
+
+  height: 50px;
+
+  font-size: 18px;
+  font-weight: bold;
+
+  transition: 0.3s;
+}
+
+/* Hover */
+.stButton > button:hover {
+  background-color: #1737db;
+  transform: scale(1.02);
+}
+
+/* =========================
+   CONTAINER LOGIN
+========================= */
+.block-container {
+  max-width: 700px;
+
+  margin: auto;
+  margin-top: 70px;
+
+  background: rgba(255, 255, 255, 0.15);
+
+  padding: 40px;
+
+  border-radius: 20px;
+}
